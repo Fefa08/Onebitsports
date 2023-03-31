@@ -228,7 +228,22 @@ footer {
   }
 }
 
+@media(min-width:950px)and (max-width:1230px){
+  .main-card{
+    width:215px;
+    height: 300px;
+  }
+  .main-content{
+    gap: 30px;
+  }
+  .card-description{
+    font-size: 12.5px;
+  }
 
+  .sidebar-content{
+    gap: 5px ;
+  }
+}
 
 @media (min-width: 1962px) {
   .logo-header {
@@ -284,21 +299,5 @@ footer {
   }
   }
 
-  
-@media(min-width:950px)and (max-width:1230px){
-  .main-card{
-    width:215px;
-    height: 300px;
-  }
-  .main-content{
-    gap: 30px;
-  }
-  .card-description{
-    font-size: 12.5px;
-  }
 
-  .sidebar-content{
-    gap: 5px ;
-  }
-}
   
